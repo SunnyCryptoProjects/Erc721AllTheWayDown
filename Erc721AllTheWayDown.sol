@@ -48,8 +48,8 @@ contract ERC721AllTheWayDown is ERC721Royalty, Ownable {
         _setDefaultRoyalty(_receiver, _feeNumerator);
     }
 
-	function setMintCost(uint256 _mintCost) public onlyOwner {
-		mintCost = _mintCost;
-	}
+    function setMintCost(uint256 _mintCost) public onlyOwner {
+        mintCost = _mintCost;
+    }
 }
 
